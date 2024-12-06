@@ -2,6 +2,7 @@
   <button mat-icon-button aria-label="menu icon" (click)="drawer.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
+    
   <span title="makes your work easy">Dutch Income Tax Calculator</span>
 
   <span class="spacer"></span>
@@ -13,18 +14,19 @@
     aria-label="GitHub Repository"
     class="github-link"
     aria-disabled="false"
-    ><span class="mat-button-wrapper"
-      ><img
+  >
+    <span class="mat-button-wrapper flex-container">
+      <img
         _ngcontent-vgy-c49=""
         src="./assets/github-circle-white-transparent.svg"
         alt="angular"
-        class="docs-angular-logo"
+        class="github-logo"
       />
-      GitHub</span
-    >
-    <span matripple="" class="mat-ripple mat-button-ripple"></span
-    ><span class="mat-button-focus-overlay"></span
-  ></a>
+      GitHub
+    </span>
+    <span matripple="" class="mat-ripple mat-button-ripple"></span>
+    <span class="mat-button-focus-overlay"></span>
+  </a>
 </mat-toolbar>
 
 <mat-drawer-container class="container" autosize>
